@@ -22,7 +22,7 @@ The dataset provided is a partial set containing customer details. It serves as 
 |-- Dataset/
 |   |-- loan-train.csv
 |   |-- loan-test.csv
-|-- notebooks/
+|-- Notebooks/
 |   |-- Loan_Eligibility_Prediction.ipynb
 |-- app.py
 |-- requirements.txt
@@ -48,7 +48,7 @@ The `app.py` script implements a Flask web application for real-time loan eligib
    pip install -r requirements.txt
    ```
 
-3. Explore the Jupyter notebook (`notebooks/Loan_Eligibility_Prediction.ipynb`) for insights into data analysis and model development.
+3. Explore the Jupyter notebook (`Notebooks/Loan_Eligibility_Prediction.ipynb`) for insights into data analysis and model development.
 
 4. Run the Flask web application:
 
