@@ -20,8 +20,8 @@ The dataset provided is a partial set containing customer details. It serves as 
 
 ```
 |-- Dataset/
-|   |-- train_data.csv
-|   |-- train_data.csv
+|   |-- loan-train.csv
+|   |-- loan-test.csv
 |-- notebooks/
 |   |-- Loan_Eligibility_Prediction.ipynb
 |-- app.py
@@ -39,7 +39,7 @@ The `app.py` script implements a Flask web application for real-time loan eligib
 
    ```bash
    git clone https://github.com/JenishRevaldo/End-to-End-Loan-Eligibility-Prediction-ML.git
-   cd loan-eligibility-prediction
+   cd End-to-End-Loan-Eligibility-Prediction-ML
    ```
 
 2. Install the required dependencies:
