@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result_css.css') }}?v=1.0">
+    <title>Prediction page</title>
+</head>
+<body>
+    <h1>Loan Eligibility Prediction</h1>
+    <div class="result-container">
+        <p>{{results}}</p>
+        <a href="/">Go back to input page</a>
+    </div>
+</body>
+</html>
